@@ -36,8 +36,9 @@
 ¡Estamos abiertos a contribuciones! Si tienes alguna idea, mejora o has encontrado un error, por favor crea un "Issue" o envía un "Pull Request". 🙌
 
 ## 👨‍💻 Desarrollado por
-TrueRoom es desarrollado con ❤️ por manelcomiche.com
-📧 Contacto: hola@manelcomiche.com
+TrueRoom es desarrollado con ❤️ por [Manel Comiche](manelcomiche.com)
+
+📧 Contacto: [hola@manelcomiche.com](mailto:hola@manelcomiche.com)
 
 ## 📜 Licencia
 Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
