@@ -9,6 +9,9 @@
 - **Videos estilo TikTok:** Disfruta de videos cortos y reales de los alojamientos, subidos por otros viajeros, para ver el hotel desde diferentes ángulos y experiencias.
 - **Detalles completos del hotel:** Información detallada de las instalaciones, políticas de check-in/check-out, idiomas hablados, y más.
 
+## 🔴 Live Demo
+[Live](https://trueroom.manel.digital/)
+
 ## 🛠️ Instalación
 
 1. **Clona el repositorio:**
