@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrueRoom</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSS -->
+    <style>
+        /* Estilo personalizado para el borde de foco */
+        .focus\:ring-2:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-r from-blue-100 to-blue-200 flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white p-8 md:p-10 rounded-xl shadow-lg w-full max-w-lg">
+        <h1 class="text-3xl font-bold text-center mb-8 text-gray-800">Buscar Hoteles</h1>
+        <form id="search-form" class="space-y-6">
+            <input type="text" id="city" placeholder="Nombre de la ciudad" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+            
+            <div class="flex space-x-4">
+                <input type="date" id="checkin_date" class="w-1/2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                <input type="date" id="checkout_date" class="w-1/2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+            </div>
+            
+            <div class="flex space-x-4">
+                <input type="number" id="adults_number" placeholder="Número de adultos" class="w-1/2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+                <input type="number" id="children_number" placeholder="Número de niños" class="w-1/2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+            </div>
+            
+            <input type="text" id="children_ages" placeholder="Edades de los niños (ej. 5,0)" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <input type="number" id="room_number" placeholder="Número de habitaciones" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+            
+            <button type="submit" class="w-full bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600 transition duration-300 ease-in-out">Buscar</button>
+        </form>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

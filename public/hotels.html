@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoteles Encontrados</title>
+  <script src="https://cdn.tailwindcss.com"></script> <!-- Añadir Tailwind CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!-- Añadir Font Awesome -->
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto p-6">
+    <h1 class="text-2xl font-bold text-center mb-6">Lista de Hoteles</h1>
+    <div id="results-container" class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <!-- Plantilla de hotel -->
+      <div id="hotel-template" class="hotel-card p-4 bg-white rounded-lg shadow-md flex flex-col hidden">
+        <img src="" alt="Hotel Image" class="hotel-image w-full h-48 object-cover rounded-md mb-4">
+        <div class="flex flex-col justify-between flex-1">
+          <div>
+            <h2 class="hotel-name text-xl font-semibold mb-2"></h2>
+            <div class="hotel-stars mb-2 flex"></div>
+            <p class="hotel-address text-sm text-gray-500 mb-1"></p>
+            <p class="hotel-location text-xs text-gray-400 mb-2"></p>
+            <div class="hotel-features mb-2 flex flex-wrap space-x-2"></div>
+            <p class="hotel-description text-sm text-gray-600"></p>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <p class="hotel-price text-lg font-bold text-green-600"></p>
+            <button class="hotel-details-btn bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-200">Ver detalles</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/hotels.js"></script>
+</body>
+</html>
